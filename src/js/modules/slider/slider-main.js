@@ -77,6 +77,7 @@ export default class MainSlider extends Slider {
     }
 
     render() {
+        console.log('render slider');
        if (this.container) {
         try {
             this.hanson = document.querySelector('.hanson');
